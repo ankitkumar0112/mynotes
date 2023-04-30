@@ -1,0 +1,54 @@
+.bg-custom {
+	background: #2426aa
+}
+
+.navbar .nav-item .nav-link {
+	font-size: 20px;
+	color: white;
+}
+
+.navbar-custom .nav-item:hover .nav-link {
+	background: white;
+	color: black;
+	border-radius: 10px;
+}
+
+.animated-box {
+  display: inline-block;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  animation-name: box-animation;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  margin-left: 50px;
+}
+
+@keyframes box-animation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+
+
+.div-color {
+	background-image: linear-gradient(to right top, #4c45c3, #5b6dcf, #7890d5, #9fb2d6, #cfd1d4);
+		
+}
+.footer {
+
+    background-color: #2a2c9f;
+
+    color: #FFFFFF;
+
+}
